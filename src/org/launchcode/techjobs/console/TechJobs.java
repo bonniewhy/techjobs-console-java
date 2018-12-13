@@ -114,7 +114,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
 
         if (someJobs.size() == 0) {
-            System.out.println("There are no jobs. I have no dreams.");
+            System.out.println("There are no jobs matching those parameters. D:");
         } else {
             for (HashMap<String, String> entry : someJobs) {
                 System.out.println("\n*****");
